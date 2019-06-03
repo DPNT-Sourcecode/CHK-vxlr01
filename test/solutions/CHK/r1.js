@@ -31,13 +31,6 @@ describe('CHK', function() {
   })
   it('E offer', function() {
     const result = chk('BBEE')
-    45 + 40 + 40 = 125
-    30 + 30 + 40 + 40 - 30 = 110
     assert.equal(result, 110)
   })
 })
-
-
-
-
-
