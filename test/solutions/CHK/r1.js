@@ -21,11 +21,16 @@ describe('CHK', function() {
     const result = chk('a')
     assert.equal(result, -1)
   })
-  it('bad input', function() {
+  it('normal input', function() {
     const result = chk('ABCD')
     assert.equal(result, 115)
   })
+  it('E offer', function() {
+    const result = chk('ABCDEE')
+    assert.equal(result, 115 + 40 + 40 - 30)
+  })
 })
+
 
 
 
