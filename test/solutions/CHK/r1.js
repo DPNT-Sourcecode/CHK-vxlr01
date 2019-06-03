@@ -6,7 +6,12 @@ const chk = require('../../../lib/solutions/CHK/checkout')
 
 describe('CHK', function() {
   it('calc specials correctly', function() {
-    const result = chk('AAAAFF')
+    const result = chk('AAAA')
     assert.equal(result, 180)
   })
+  it('calc multiple specials correctly', function() {
+    const result = chk('AAAABBB')
+    assert.equal(result, 270)
+  })
 })
+
