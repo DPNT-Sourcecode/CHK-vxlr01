@@ -11,11 +11,11 @@ describe('CHK', function() {
   })
   it('calc multiple specials correctly', function() {
     const result = chk('AAAABBB')
-    assert.equal(result, 270)
+    assert.equal(result, 130 + 50 + 45 + 30)
   })
   it('calc all correctly', function() {
     const result = chk('AAAABBBCCDD')
-    assert.equal(result, 340)
+    assert.equal(result, 130 + 50 + 45 + 30 + 20 + 20 + 15 + 15)
   })
   it('bad input', function() {
     const result = chk('a')
@@ -26,5 +26,6 @@ describe('CHK', function() {
     assert.equal(result, 115)
   })
 })
+
 
 
