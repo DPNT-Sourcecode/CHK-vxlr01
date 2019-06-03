@@ -1,0 +1,11 @@
+.idea
+node_modules
+challenges/*.txt
+record/localstore
+record/bin
+jre
+config/credentials.config
+.DS_Store
+.nyc_output
+coverage.tdl
+coverage
