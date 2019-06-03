@@ -50,6 +50,3 @@ describe('CHK', function() {
     assert.equal(result, 20)
   })
 })
-
-
-
