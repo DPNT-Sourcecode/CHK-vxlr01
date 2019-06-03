@@ -21,5 +21,10 @@ describe('CHK', function() {
     const result = chk('a')
     assert.equal(result, -1)
   })
+  it('bad input', function() {
+    const result = chk('ABCD')
+    assert.equal(result, 115)
+  })
 })
+
 
