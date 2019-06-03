@@ -13,5 +13,8 @@ describe('CHK', function() {
     const result = chk('AAAABBB')
     assert.equal(result, 270)
   })
+  it('calc all correctly', function() {
+    const result = chk('AAAABBBCCDD')
+    assert.equal(result, 340)
+  })
 })
-
