@@ -33,4 +33,9 @@ describe('CHK', function() {
     const result = chk('BBEE')
     assert.equal(result, 110)
   })
+  it('A offer', function() {
+    const result = chk('AAAAA')
+    assert.equal(result, 200)
+  })
 })
+
