@@ -29,7 +29,14 @@ describe('CHK', function() {
     const result = chk('ABCDEE')
     assert.equal(result, 115 + 40 + 40 - 30)
   })
+  it('E offer', function() {
+    const result = chk('BBEE')
+    45 + 40 + 40 = 125
+    30 + 30 + 40 + 40 - 30 = 110
+    assert.equal(result, 110)
+  })
 })
+
 
 
 
